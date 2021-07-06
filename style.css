@@ -28,7 +28,7 @@ body{
     text-align: center;
 }
 
-.Foods{
+.Favourite-Foods{
     padding: 80px 0px 120px 0px;
     background-color: #FEF3EC;
     text-align: center;
@@ -130,20 +130,51 @@ header img{
     margin-bottom: 100px;
 }
 
-.videos div{
-    margin: 0px 25px;
+.Video-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.Video-container iframe{
+    width: 450px;
+    height: 350px;
+    resize: both;
+    overflow: auto;
+    margin: 0px 45px;
+}
+
+.Favourite-Foods h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: rgb(90, 83, 83);
+    margin-bottom: 100px;
 }
 
 .Foods div{
-    margin: 0px 20px;
+    margin: 0px 30px;
     background-color: white;
-    width: 22%;
+    width: 25%;
     border-radius: 15px;
 }
 
 .Foods div img{
-    width: 370px;
-    height: 230px;
+    width: 90%;
+    height: 300px;
     margin-top: 23px;
     border-radius: 15px
+}
+
+.Foods div h3{
+    font-size: 35px;
+    text-align: left;
+    padding: 0px 25px;
+}
+
+.Foods div p{
+    text-align: left;
+    padding: 0px 25px 30px 25px;
+    font-size: 22px;
+    line-height: 45px;
 }
