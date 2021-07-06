@@ -4,14 +4,13 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-/*-------------Sections-------------*/
 
 .home{
     background: url(./images/Backgrounds/7.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0% 0%;
-    padding-bottom: 120px;  
+    padding-bottom: 80px;  
 }
 
 .about{
@@ -19,27 +18,16 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0% 0%;
-    padding-bottom: 120px; 
+    padding-bottom: 80px; 
 }
 
-.videos{
-    padding: 80px 0px 120px 0px;
-    background-color: #FEF3EC;
-    text-align: center;
-}
-
-.Favourite-Foods{
-    padding: 80px 0px 120px 0px;
-    background-color: #FEF3EC;
-    text-align: center;
-}
-
-/*-------------Sections-------------*/
 
 .flex-content{
     display: flex;
     justify-content: center;
 }
+
+/* -----------Header Start -----------*/
 
 header{
     padding: 20px 0px;
@@ -69,6 +57,8 @@ header img{
     cursor: pointer;
 }
 
+/*------------- Header End -------------*/
+
 
 .left-portion{
     width: 50%;
@@ -84,7 +74,7 @@ header img{
     color: rgb(90, 83, 83);
 }
 
-.left-portion span{
+.colored-span{
     color: tomato;
 }
 
@@ -105,12 +95,12 @@ header img{
     font-weight: 400;
     font-size: 20px;
     margin-top: 40px;
-    box-shadow: 0px 0px 8px rgb(252, 112, 20);
+    box-shadow: 0px 0px 8px #fc7014;
     transition: 0.4s;
 }
 
 .left-portion a:hover{
-    box-shadow: 0px 0px 30px rgb(252, 112, 20);
+    box-shadow: 0px 0px 30px #fc7014;
 }
 
 .right-portion{
@@ -121,6 +111,61 @@ header img{
 
 .right-portion img{
     width: 75%;
+}
+
+
+/*---------- Favourite Foods Start ---------*/
+
+.Favourite-Foods{
+    padding: 110px 0px 0px 0px;
+    background-color: #FEF3EC;
+    text-align: center;
+}
+
+.Favourite-Foods h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: rgb(90, 83, 83);
+    margin-bottom: 100px;
+}
+
+.Foods div{
+    margin: 0px 30px;
+    background-color: white;
+    width: 25%;
+    border-radius: 45px;
+    box-shadow: 0px 0px 20px #b9afaf;
+}
+
+.Foods div img{
+    width: 90%;
+    height: 300px;
+    margin-top: 23px;
+    border-radius: 30px
+}
+
+.Foods div h3{
+    font-size: 35px;
+    text-align: left;
+    padding: 0px 25px;
+}
+
+.Foods div p{
+    text-align: left;
+    padding: 0px 25px 30px 25px;
+    font-size: 22px;
+    line-height: 45px;
+}
+
+/*--------- Favourite Foods End ----------*/
+
+
+/* ----------Videos Start ---------*/
+
+.videos{
+    padding: 110px 0px 0px 0px;
+    background-color: #FEF3EC;
+    text-align: center;
 }
 
 .videos h1{
@@ -143,38 +188,60 @@ header img{
     resize: both;
     overflow: auto;
     margin: 0px 45px;
+    border-radius: 20px;
 }
 
-.Favourite-Foods h1{
-    font-size: 50px;
-    text-transform: capitalize;
-    color: rgb(90, 83, 83);
-    margin-bottom: 100px;
+/* --------- Videos End ----------*/
+
+
+
+/* ------------Social reach Start ----------*/
+
+.Social-reach{
+    background-color: #FEF3EC;
+    padding: 150px 0px;
 }
 
-.Foods div{
-    margin: 0px 30px;
+.Social-Container{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0px;
     background-color: white;
-    width: 25%;
-    border-radius: 15px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px #dbd9d9;
 }
 
-.Foods div img{
-    width: 90%;
-    height: 300px;
-    margin-top: 23px;
-    border-radius: 15px
+.Social-Container h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 0px 150px;
 }
 
-.Foods div h3{
-    font-size: 35px;
-    text-align: left;
-    padding: 0px 25px;
+.Social-Container h1 span{
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
 }
 
-.Foods div p{
-    text-align: left;
-    padding: 0px 25px 30px 25px;
-    font-size: 22px;
-    line-height: 45px;
+/*------------ Social reach End -----------*/
+
+
+/*------------ Footer Start -----------*/
+
+Footer{
+    background-color: rgb(73, 71, 71);
+    padding: 50px 0px;
+    text-align: center;
 }
+
+Footer h2{
+    font-size: 40px;
+    color: #cfbcbc;
+}
+
+Footer p{
+    font-size: 19px;
+    color: rgb(165, 163, 160);
+}
+
+/*------------ Footer End -----------*/
